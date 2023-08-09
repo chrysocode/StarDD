@@ -1,2 +1,2 @@
-# stardd
+# StarDD
 *DD : TDD, ATDD, BDD
