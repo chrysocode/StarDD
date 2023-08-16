@@ -21,14 +21,48 @@ Au final, viser TDD même en commençant par des petits tests automatisés sur d
 
 # Test-Driven Development (TDD)
 
-## Rouge-Vert-Remaniement
+## Rouge-Vert-Remaniement avec le mantra de TDD
+
+Mantra de TDD : "Tout code est coupable jusqu'à preuve de son innocence."
 
 ![TDD: Red-Green-Refactor](ressources/schemas/tdd_red_green_refactor.png)
 
-## Micro-cycle et nano-cycles de TDD
+## Les trois lois de TDD
+
+Loi | Formulation correcte en français et sans ambiguïté
+:-: | --------------------------------------------------
+1   | Écris un test qui échoue avant d’écrire le code de production correspondant.
+2   | Écris une seule assertion à la fois, qui fait échouer le test ou qui échoue à la compilation.
+3   | Écris le minimum de code de production pour que l'assertion du test actuellement en échec soit satisfaite.
+
+**NB :** Ces trois lois ne couvrent que les conditions à respecter en TDD pour arriver à un test qui réussit, en exprimant le minimalisme attendu du test en échec.
+
+## Processus cyclique de TDD
+
+Le micro-cycle de TDD se divise en deux nano-cycles : un nano-cycle de *Code-Driven Testing*, puis un nano-cycle de remaniement. C'est un processus itératif qui comporte cinq étapes.
+
+Étape | Consigne
+:---: | --------
+1     | Écris un seul test qui décrit une partie du problème à résoudre.
+2     | Vérifie que le test échoue, autrement dit qu'il est valide, c'est-à-dire que le code se rapportant à ce test n'existe pas.
+3     | Écris juste assez de code pour que le test réussisse.
+4     | Vérifie que le test passe, ainsi que les autres tests existants.
+5     | Remanie le code, c'est-à-dire améliore-le sans en altérer le comportement, qu'il s'agisse du code de production ou du code de test.
 
 ![Micro-cycle et nano-cycles de TDD](ressources/schemas/cycle-global-tdd.png)
 
-## TDD et ses pratiques dérivées
+## TDD, ses pratiques et extensions
 
-![TDD et ses pratiques dérivées](ressources/schemas/tdd_inheritance.png)
+- Pratiques de TDD
+  - *Code-Driven Testing*
+  - Remaniement de code
+- Pratiques dérivées de TDD
+  - *Bug-Driven Development*
+  - *Continuous TDD*
+  - *TDD As If You Meant It*
+  - *Behavior-Driven Development* (BDD) dérive à la fois de TDD et d'ATDD (*Acceptance-Driven Development*).
+
+![TDD : pratiques et extensions](ressources/schemas/tdd_inheritance.png)
+
+---
+Contenus sous copyright et sous licence Creative Commons (CC), promus par [CHRYSOCODE](https://chrysocode.io/)
