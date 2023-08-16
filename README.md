@@ -4,7 +4,7 @@ En environnement complexe, il n'y a plus une solution pour un problème, mais un
 
 ![Ingénieur Logiciel vs Développeur](ressources/schemas/ingénieur_logiciel_vs_développeur.png)
 
-Ingénieur logiciel | Développeurs
+Ingénieur logiciel | Développeur
 ------------------ | ------------
 découvrir/questionner le problème | comprendre le problème posé
 redéfinir le cadre du problème |
