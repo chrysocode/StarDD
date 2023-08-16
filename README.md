@@ -76,9 +76,9 @@ Le micro-cycle de TDD se divise en deux nano-cycles : un nano-cycle de *Code-Dri
 
 ![TDD : pratiques et extensions](ressources/schemas/tdd_inheritance.png)
 
----
-Contenus sous copyright et sous licence Creative Commons (CC), promus par [CHRYSOCODE](https://chrysocode.io/)
-
 ## TDDflow : versionnage avec TDD
 
 TDDflow peut se greffer à n'importe quel modèle des flux de versionnage, tels que GrootFlow, Gitflow ou *Trunk-Based Development*. En plus de TDD, il est compatible avec *Bug-Driven Development*, *Documentation-Driven Development*, et même TCR (*Test && Commit || Revert*).
+
+---
+Contenus sous copyright et sous licence Creative Commons (CC), promus par [CHRYSOCODE](https://chrysocode.io/)
