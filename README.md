@@ -1,4 +1,4 @@
-Les concepts-clés à propos des méthodes itératives et incrémentales de développement que sont TDD, ATDD et BDD sont (ou seront) réunis sur [StarDD.chrysocode.io](https://stardd.chrysocode.io/).
+Les concepts-clés à propos des méthodes itératives et incrémentales de développement que sont TDD, ATDD et BDD sont (ou seront) réunis sur [Star-Driven Development](https://stardd.chrysocode.io/).
 
 -- Xavier Pigeon
 
