@@ -3,12 +3,12 @@ a#forkme_banner {
   }
   
   div.shell {
-    width: 1000px;
+    width: 640px;
   }
   
   
   header {
-    max-width:1000px;
+    max-width:640px;
     margin: 0;
     top: 51px;
   }
@@ -52,7 +52,7 @@ a#forkme_banner {
   span.banner-fix {
     background: transparent url(../images/shield-fallback.png) center top no-repeat;
     height: 31px;
-    width: 1000px;
+    width: 640px;
     top: 20px;
   }
   
@@ -61,7 +61,7 @@ a#forkme_banner {
   }
   
   footer {
-    max-width:1000px;
+    max-width:640px;
     background: none;
   }
   
