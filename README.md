@@ -29,6 +29,10 @@ Au final, viser TDD même en commençant par des petits tests automatisés sur d
 
 # Test-Driven Development (TDD)
 
+## Définition de TDD
+
+TDD est une méthode qui guide les développements par micro-itérations depuis le découpage d'un problème jusqu'à aboutir à une solution minimale, simple et prouvée, afin de livrer continuellement le produit.
+
 ## Rouge-Vert-Remaniement avec le mantra de TDD
 
 Mantra de TDD : "Tout code est coupable jusqu'à preuve de son innocence."
