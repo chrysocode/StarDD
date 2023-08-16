@@ -77,4 +77,4 @@ Contenus sous copyright et sous licence Creative Commons (CC), promus par [CHRYS
 
 ## TDDflow : versionnage avec TDD
 
-TDDflow peut se greffer à n'importe quel modèle des flux de versionnage, tels que GrootFlow, Gitflow ou *Trunk-Based Development*. En plus de TDD, il est compatible avec *Bug-Driven Development*, *Documentation-Driven Development*, and even TCR (*Test && Commit || Revert*).
+TDDflow peut se greffer à n'importe quel modèle des flux de versionnage, tels que GrootFlow, Gitflow ou *Trunk-Based Development*. En plus de TDD, il est compatible avec *Bug-Driven Development*, *Documentation-Driven Development*, et même TCR (*Test && Commit || Revert*).
