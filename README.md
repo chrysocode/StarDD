@@ -1,6 +1,14 @@
-# Espace du Problème vs Espace de la Solution
+Les concepts-clés à propos des méthodes itératives et incrémentales de développement que sont TDD, ATDD et BDD sont (ou seront) réunis sur [StarDD.chrysocode.io](https://stardd.chrysocode.io/).
+
+-- Xavier Pigeon
+
+# Considérations Générales
+
+## Espace du problème vs espace de la solution
 
 En environnement complexe, il n'y a plus une solution pour un problème, mais une multitude de solutions possibles. Et bien souvent, le problème reste à découvrir, à questionner. Redéfinir le problème d'origine dans un cadre différent ouvre de nouvelles perspectives et permet d'envisager des solutions novatrices. Formuler des hypothèses pour explorer des solutions potentielles, c'est se donner des chances de découvrir une meilleure solution, voire de relever un défi qui paraissait insurmontable au départ.
+
+Comment se positionner soi-même, un collègue ou des collaborateurs au sujet des métiers dans le développement de logiciels, en faisant abstraction des titres de postes, des diplômes, des textes de loi et conventions collectives, pour se focaliser seulement sur les aptitudes réelles ou une situation professionnelle donnée ?
 
 ![Ingénieur Logiciel vs Développeur](ressources/schemas/ingénieur_logiciel_vs_développeur.png)
 
@@ -13,7 +21,7 @@ formuler des hypothèses |
 explorer des solutions | trouver une solution
 prouver et simplifier sa solution | vérifier sa solution
 
-# Faut-il se former à TDD dès le début de sa carrière ?
+## Faut-il se former à TDD dès le début de sa carrière ?
 
 Quand on se forme à un langage de programmation, on écrit généralement des morceaux de code pour réaliser de toutes petites tâches, comme autant d'exercices. On a donc le choix de vérifier le résultat soit en l'affichant en console (test manuel), soit en le testant en utilisant un framework de test (test automatisé). La deuxième option est bien meilleure, car on développe deux compétences conjointement au lieu d'une, car on apprend plus vite en maîtrisant ce qu'on fait, car automatiser ses tests n'est plus un sujet tabou. Ensuite, analyser un problème en sous-problèmes et commencer à définir un sous-problème en le décrivant sous la forme d'un test automatisé, tout cela avant de foncer tête baissée dans la recherche d'une solution, c'est déjà pratiquer TDD.
 
