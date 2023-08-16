@@ -21,8 +21,14 @@ Au final, viser TDD même en commençant par des petits tests automatisés sur d
 
 # Test-Driven Development (TDD)
 
+## Rouge-Vert-Remaniement
+
 ![TDD: Red-Green-Refactor](ressources/schemas/tdd_red_green_refactor.png)
 
+## Micro-cycle et nano-cycles de TDD
+
 ![Micro-cycle et nano-cycles de TDD](ressources/schemas/cycle-global-tdd.png)
+
+## TDD et ses pratiques dérivées
 
 ![TDD et ses pratiques dérivées](ressources/schemas/tdd_inheritance.png)
