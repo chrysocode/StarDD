@@ -68,7 +68,10 @@ Le micro-cycle de TDD se divise en deux nano-cycles : un nano-cycle de *Code-Dri
 - Méthodes dérivées de TDD
   - *Bug-Driven Development*
   - *Documentation-Driven Development*
-  - *Behavior-Driven Development* (BDD), qui dérive à la fois de TDD et d'ATDD (*Acceptance-Driven Development*).
+  - *Behavior-Driven Development* (BDD), qui dérive à la fois de TDD et d'ATDD.
+- Méthodes hors TDD
+  - *Acceptance-Driven Development*
+  - *Test && Commit \|\| Revert* (TCR)
 
 ![TDD : pratiques et extensions](ressources/schemas/tdd_inheritance__fr.png)
 
