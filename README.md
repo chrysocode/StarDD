@@ -2,6 +2,8 @@ Les concepts-clés à propos des méthodes itératives et incrémentales de dév
 
 -- Xavier Pigeon
 
+![Définitions de TDD, BDD et ATDD](ressources/schemas/tdd_atdd_bdd__definitions__fr.png)
+
 # Considérations Générales
 
 ## Espace du problème vs espace de la solution
@@ -25,7 +27,7 @@ prouver et simplifier sa solution | vérifier sa solution
 
 ## Définition de TDD
 
-TDD est une méthode qui guide les développements par micro-itérations depuis le découpage d'un problème jusqu'à aboutir à une solution minimale, simple et prouvée, afin de livrer continuellement le produit.
+TDD est une méthode qui guide les développements par micro-itérations depuis l'analyse et le découpage du problème jusqu'à aboutir à une solution minimale, simple et prouvée, afin de livrer continuellement un produit toujours plus fiable aux utilisateurs.
 
 ## Rouge-Vert-Remaniement avec le mantra de TDD
 
@@ -78,6 +80,14 @@ Le micro-cycle de TDD se divise en deux nano-cycles : un nano-cycle de *Code-Dri
 ## TDDflow : versionnage avec TDD
 
 TDDflow peut se greffer à n'importe quel modèle des flux de versionnage, tels que GrootFlow, Gitflow ou *Trunk-Based Development*. En plus de TDD, il est compatible avec *Bug-Driven Development*, *Documentation-Driven Development*, et même TCR (*Test && Commit \|\| Revert*).
+
+# Acceptance-Test Driven Development (ATDD)
+
+ATDD est une méthode qui guide les développements par macro-itérations depuis l'heuristique et la capture du besoin jusqu'à aboutir à une solution démontrable, afin de livrer régulièrement un produit toujours plus satisfaisant aux utilisateurs.
+
+# Behavior-Driven Development (BDD)
+
+BDD est une méthode qui guide les développements par macro-itérations depuis l'heuristique et la capture du besoin jusqu'à aboutir à une solution auto-spécifiée et démontrable, afin de livrer continuellement un produit toujours plus satisfaisant aux utilisateurs.
 
 # Foire Aux Questions
 
