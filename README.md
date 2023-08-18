@@ -4,9 +4,11 @@ Les concepts-clés à propos des méthodes itératives et incrémentales de dév
 
 ![Définitions de TDD, BDD et ATDD](ressources/schemas/tdd_atdd_bdd__definitions__fr.png)
 
-# Considérations Générales
+# Comment ces méthodes sont-elles devenues incontournables ?
 
-## Espace du problème vs espace de la solution
+La question n'est plus de savoir pourquoi il faudrait s'y intéresser, mais plutôt de comprendre ce qu'elles permettent de faire.
+
+## Un monde complexe et ambigü
 
 En environnement complexe, il n'y a plus une solution pour un problème, mais une multitude de solutions possibles. Et bien souvent, le problème reste à découvrir, à questionner. Redéfinir le problème d'origine dans un cadre différent ouvre de nouvelles perspectives et permet d'envisager des solutions novatrices. Formuler des hypothèses pour explorer des solutions potentielles, c'est se donner des chances de découvrir une meilleure solution, voire de relever un défi qui paraissait insurmontable au départ.
 
@@ -23,6 +25,12 @@ formuler des hypothèses |
 explorer des solutions | trouver une solution
 prouver et simplifier sa solution | vérifier sa solution
 
+Face à la complexité, la simplicité est notre salut. Face à l'ambiguïté, sa complice, l'heuristique est notre meilleure alliée.
+
+> La simplicité est la sophistication suprême. -- Léonard de Vinci
+
+## Un monde volatile et incertain
+
 # Test-Driven Development (TDD)
 
 ## Définition de TDD
@@ -34,6 +42,10 @@ TDD est une méthode qui guide les développements par micro-itérations depuis 
 Mantra de TDD : "Tout code est coupable jusqu'à preuve de son innocence."
 
 ![TDD: Red-Green-Refactor](ressources/schemas/tdd_red_green_refactor.png)
+
+- Rouge ! C'est un moment primordial de TDD, où nous nous projetons dans l'espace du problème.
+- Vert ! C'est un moment central de TDD, où nous nous projetons dans l'espace de la solution.
+- Remaniement ! C'est un moment charnière de TDD, où nous nous préparons déjà pour le prochain cycle.
 
 ## Les trois lois de TDD
 
@@ -49,6 +61,8 @@ Loi | Formulation correcte en français et sans ambiguïté
 
 Le micro-cycle de TDD se divise en deux nano-cycles : un nano-cycle de *Code-Driven Testing*, puis un nano-cycle de remaniement. C'est un processus itératif qui comporte cinq étapes.
 
+![Cycle global de TDD](ressources/schemas/cycle-global-tdd.png)
+
 Étape | Consigne
 :---: | --------
 1     | Écris un seul test qui décrit une partie du problème à résoudre.
@@ -57,9 +71,9 @@ Le micro-cycle de TDD se divise en deux nano-cycles : un nano-cycle de *Code-Dri
 4     | Vérifie que le test passe, ainsi que les autres tests existants.
 5     | Remanie le code, c'est-à-dire améliore-le sans en altérer le comportement, qu'il s'agisse du code de production ou du code de test.
 
-![Micro-cycle et nano-cycles de TDD](ressources/schemas/cycle-global-tdd.png)
-
 ## Pratiques et extensions de TDD
+
+![TDD : pratiques et extensions](ressources/schemas/tdd_inheritance__fr.png)
 
 - Pratiques strictement incluses à TDD
   - *Code-Driven Testing*
@@ -75,17 +89,19 @@ Le micro-cycle de TDD se divise en deux nano-cycles : un nano-cycle de *Code-Dri
   - *Acceptance-Test Driven Development* (ATDD)
   - *Test && Commit \|\| Revert* (TCR)
 
-![TDD : pratiques et extensions](ressources/schemas/tdd_inheritance__fr.png)
-
 ## TDDflow : versionnage avec TDD
 
 TDDflow peut se greffer à n'importe quel modèle des flux de versionnage, tels que GrootFlow, Gitflow ou *Trunk-Based Development*. En plus de TDD, il est compatible avec *Bug-Driven Development*, *Documentation-Driven Development*, et même TCR (*Test && Commit \|\| Revert*).
 
 # Acceptance-Test Driven Development (ATDD)
 
+## Définition d'ATDD
+
 ATDD est une méthode qui guide les développements par macro-itérations depuis l'heuristique et la capture du besoin jusqu'à aboutir à une solution démontrable, afin de livrer régulièrement un produit toujours plus satisfaisant aux utilisateurs.
 
 # Behavior-Driven Development (BDD)
+
+## Définition de BDD
 
 BDD est une méthode qui guide les développements par macro-itérations depuis l'heuristique et la capture du besoin jusqu'à aboutir à une solution auto-spécifiée et démontrable, afin de livrer continuellement un produit toujours plus satisfaisant aux utilisateurs.
 
