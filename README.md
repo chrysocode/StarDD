@@ -61,7 +61,7 @@ Loi | Formulation correcte en français et sans ambiguïté
 
 Le micro-cycle de TDD se divise en deux nano-cycles : un nano-cycle de *Code-Driven Testing*, puis un nano-cycle de remaniement. C'est un processus itératif qui comporte cinq étapes.
 
-![Cycle global de TDD](ressources/schemas/cycle-global-tdd.png)
+![Cycle global de TDD](ressources/schemas/tdd_global_cycle__fr__chrysocode.png)
 
 Étape | Consigne
 :---: | --------
