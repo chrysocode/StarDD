@@ -50,6 +50,15 @@ TDD est une méthode qui guide les développements par micro-itérations depuis 
 - Vert ! C'est un moment central de TDD, où nous nous projetons dans l'espace de la solution.
 - Remaniement ! C'est un moment charnière de TDD, où nous nous préparons déjà pour le prochain cycle.
 
+## Pilliers de TDD
+
+TDD repose sur [cinq pilliers] qui changent radicalement la manière de développer des logiciels.
+1. Des petits pas plutôt que des changements de grande ampleur.
+2. Un remaniement continuel plutôt que des améliorations tardives.
+3. Une conception qui émerge au fil du temps plutôt qu'une conception globale en amont.
+4. Une documentation exécutable plutôt que des documents statiques.
+5. Un code minimaliste plutôt qu'une solution plaquée or.
+
 ## Les trois lois de TDD
 
 Loi | Formulation correcte en français et sans ambiguïté
@@ -140,3 +149,7 @@ Car rien de tel pour semer le chaos et la discorde que d'employer un même mot p
 M'étant longuement penché sur la typologie des tests, je vous recommande le terme de **test métier** pour désigner un test fonctionnel qui traverse un groupe de classes comme sujet de test et dont l'objectif est de vérifier une règle métier, d'où son nom. Test unitaire et test métier forment le groupe des tests comportementaux, car ils servent tout deux à vérifier des comportements d'un logiciel.
 
 En pratiquant TDD, nous sommes ainsi amenés à réaliser surtout des tests métier, et plus rarement des tests unitaires, selon que nous voulons tester une règle métier complète ou un petit algorithme, le principal étant que les tests soient résilients face au remaniement de code. Bien sûr, cela n'exclut pas de recourir plus souvent à des tests unitaires pour d'autres besoins ou pour d'autres pratiques que TDD. Nous serons alors bien contents de les retrouver, indemnes et fidèles à eux-mêmes.
+
+# Références bibliographiques
+
+[cinq pilliers]: [TDD Manifesto, Values of TDD](https://tddmanifesto.com/)
