@@ -4,6 +4,8 @@ Les concepts-clés à propos des méthodes itératives et incrémentales de dév
 
 ![Définitions de TDD, BDD et ATDD](ressources/schemas/tdd_atdd_bdd__definitions__fr.png)
 
+{:toc}
+
 # Comment ces méthodes sont-elles devenues incontournables ?
 
 La question n'est plus de savoir pourquoi il faudrait s'y intéresser, mais plutôt de comprendre ce qu'elles permettent de faire.
