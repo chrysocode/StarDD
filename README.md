@@ -52,7 +52,7 @@ TDD est une méthode qui guide les développements par micro-itérations depuis 
 
 ## Pilliers de TDD
 
-TDD repose sur [cinq pilliers] qui changent radicalement la manière de développer des logiciels.
+TDD repose sur cinq [pilliers][TDD/pilliers] qui changent radicalement la manière de développer des logiciels.
 1. Des petits pas plutôt que des changements de grande ampleur.
 2. Un remaniement continuel plutôt que des améliorations tardives.
 3. Une conception qui émerge au fil du temps plutôt qu'une conception globale en amont.
@@ -152,4 +152,5 @@ En pratiquant TDD, nous sommes ainsi amenés à réaliser surtout des tests mét
 
 # Références bibliographiques
 
-[cinq pilliers]: [TDD Manifesto, Values of TDD](https://tddmanifesto.com/)
+- [TDD Manifesto, Values of TDD](https://tddmanifesto.com/)
+[TDD/pilliers]: https://tddmanifesto.com/ "TDD Manifesto, Values of TDD"
