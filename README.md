@@ -142,7 +142,7 @@ Au final, viser TDD même en commençant par des petits tests automatisés sur d
 
 ## Que signifie unitaire dans le contexte de TDD ?
 
-En vérité, unitaire signifiait **assertion** quand Robert C. Martin l'a utilisé dans ses premières formulations des trois lois de TDD, entre 2005 et 2008[*](Clean Code/The Three Laws of TDD). Toutes les confusions et le capharnaüm qui règne dans la communauté du *Software Craftsmanship* trouvent leur origine ici. Comme Robert C. Martin s'est aperçu de sa bévue, sa [dernière formulation][Martin/The Cycles of TDD] en 2014 voit le terme unitaire enfin supprimé. Car unitaire désigne et doit continuer à désigner une **unité de programmation**, de sorte que cette unité de programmation dépend en fait du paradigme de programmation (une classe en programmation orientée objet, une fonction en programmation fonctionnelle, une procédure en programmation procédurale, etc), et non des tests. Quand vous voudrez parler d'un test dont le sujet n'est pas une unité de programmation, vous devrez vous intéresser à la typologie et taxonomie des tests logiciels, afin de recourir au vocable adéquat.
+En vérité, unitaire signifiait **assertion** quand Robert C. Martin l'a utilisé dans ses premières formulations des trois lois de TDD, entre 2005 et 2008[*][Clean Code/The Three Laws of TDD]. Toutes les confusions et le capharnaüm qui règne dans la communauté du *Software Craftsmanship* trouvent leur origine ici. Comme Robert C. Martin s'est aperçu de sa bévue, sa [dernière formulation][Martin/The Cycles of TDD] en 2014 voit le terme unitaire enfin supprimé. Car unitaire désigne et doit continuer à désigner une **unité de programmation**, de sorte que cette unité de programmation dépend en fait du paradigme de programmation (une classe en programmation orientée objet, une fonction en programmation fonctionnelle, une procédure en programmation procédurale, etc), et non des tests. Quand vous voudrez parler d'un test dont le sujet n'est pas une unité de programmation, vous devrez vous intéresser à la typologie et taxonomie des tests logiciels, afin de recourir au vocable adéquat.
 
 Car rien de tel pour semer le chaos et la discorde que d'employer un même mot pour désigner des choses différentes.
 
@@ -159,7 +159,7 @@ En pratiquant TDD, nous sommes ainsi amenés à réaliser surtout des tests mét
 - [Robert C. Martin (Uncle Bob), The Cycles of TDD, 2014](http://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html)
 - [TDD Manifesto, Values of TDD](https://tddmanifesto.com/)
 
-[Clean Code/The Three Laws of TDD]: "Robert C. Martin, Clean Code, A Handbook of Agile Software Craftsmanship, 2008, p. 122"
+[Clean Code/The Three Laws of TDD]: https://amzn.eu/d/65hsB4L "Robert C. Martin, Clean Code, A Handbook of Agile Software Craftsmanship, 2008, p. 122"
 
 [Martin/The Cycles of TDD]: http://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html "Robert C. Martin (Uncle Bob), The Cycles of TDD, 2014"
 
