@@ -75,17 +75,17 @@ Le micro-cycle de TDD se divise en deux nano-cycles : un nano-cycle de *Code-Dri
 
 ![TDD : pratiques et extensions](ressources/schemas/tdd_inheritance__fr.png)
 
-- Pratiques strictement incluses à TDD
+- Pratiques strictement incluses : TDD implique de les utiliser.
   - *Code-Driven Testing*
   - Remaniement de code
-- Pratiques additionnelles de TDD
+- Pratiques additionnelles : elles ne modifient pas TDD, elles y ajoutent seulement quelques éléments.
   - *Continuous TDD*
   - *TDD As If You Meant It*
-- Méthodes dérivées de TDD
+- Méthodes dérivées : elles héritent de TDD, en respectant son cycle, et y apportent des changements.
   - *Bug-Driven Development*
   - *Documentation-Driven Development*
   - *Behavior-Driven Development* (BDD), qui dérive à la fois de TDD et d'ATDD.
-- Méthodes hors TDD
+- Méthodes similaires : elles ont leur propre cycle qui les rend à la fois similaires à TDD, mais structurellement différentes.
   - *Acceptance-Test Driven Development* (ATDD)
   - *Test && Commit \|\| Revert* (TCR)
 
