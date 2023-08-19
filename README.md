@@ -61,13 +61,15 @@ TDD repose sur cinq [pilliers][TDD/pilliers] qui changent radicalement la maniè
 
 ## Les trois lois de TDD
 
+Ces lois énoncent les conditions à respecter en TDD pour arriver à un test qui réussit, autrement dit pour passer du rouge au vert. Elles formalisent les trois étapes à dérouler chronologiquement quand on amorce un nouveau cycle de TDD.
+
 Loi | Formulation correcte en français et sans ambiguïté
 :-: | --------------------------------------------------
 1   | Écris un test qui échoue avant d’écrire le code de production correspondant.
 2   | Écris une seule assertion à la fois, qui fait échouer le test ou qui échoue à la compilation.
 3   | Écris le minimum de code de production pour que l'assertion du test actuellement en échec soit satisfaite.
 
-**NB :** Ces trois lois ne couvrent que les conditions à respecter en TDD pour arriver à un test qui réussit, en exprimant le minimalisme attendu du test en échec.
+**NB :** Ces lois expriment le minimalisme attendu du test en échec, autant que du code de production.
 
 ## Processus cyclique de TDD
 
