@@ -11,6 +11,8 @@ Les concepts-clés à propos des méthodes itératives et incrémentales de dév
 
 La question n'est plus de savoir pourquoi il faudrait s'y intéresser, mais plutôt de comprendre ce qu'elles permettent de faire.
 
+![Drive change for Spec + Test + Code with Chrysocode](ressources/schemas/bannière_stardd.png)
+
 ## Un monde complexe et ambigü
 
 En environnement complexe, il n'y a plus une solution pour un problème, mais une multitude de solutions possibles. Et bien souvent, le problème reste à découvrir, à questionner. Redéfinir le problème d'origine dans un cadre différent ouvre de nouvelles perspectives et permet d'envisager des solutions novatrices. Formuler des hypothèses pour explorer des solutions potentielles, c'est se donner des chances de découvrir une meilleure solution, voire de relever un défi qui paraissait insurmontable au départ.
@@ -164,3 +166,7 @@ En pratiquant TDD, nous sommes ainsi amenés à réaliser surtout des tests mét
 [Martin/The Cycles of TDD]: http://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html "Robert C. Martin (Uncle Bob), The Cycles of TDD, 2014"
 
 [TDD Manifesto/Values]: https://tddmanifesto.com/ "TDD Manifesto, Values of TDD"
+
+---
+
+![Drive change for Spec + Test + Code with Chrysocode](ressources/schemas/bannière_stardd.png)
