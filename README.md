@@ -37,9 +37,9 @@ Face à la complexité, la simplicité est notre salut. Face à l'ambiguïté, s
 
 TDD est une méthode qui guide les développements par micro-itérations depuis l'analyse et le découpage du problème jusqu'à aboutir à une solution minimale, simple et prouvée, afin de livrer continuellement un produit toujours plus fiable aux utilisateurs.
 
-## Rouge-Vert-Remaniement avec le mantra de TDD
+## Rouge-Vert-Remaniement
 
-Mantra de TDD : "Tout code est coupable jusqu'à preuve de son innocence."
+> Tout code est coupable jusqu'à preuve de son innocence. -- Mantra de TDD
 
 ![TDD: Red-Green-Refactor](ressources/schemas/tdd_red_green_refactor.png)
 
