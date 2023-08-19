@@ -95,6 +95,7 @@ Le micro-cycle de TDD se divise en deux nano-cycles : un nano-cycle de *Code-Dri
 - Pratiques additionnelles : elles ne modifient pas TDD, elles y ajoutent seulement quelques éléments.
   - *Continuous TDD*
   - *TDD As If You Meant It*
+  - *Transformation Priority Premise*
 - Méthodes dérivées : elles héritent de TDD, en respectant son cycle, et y apportent des changements.
   - *Bug-Driven Development*
   - *Documentation-Driven Development*
