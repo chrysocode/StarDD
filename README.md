@@ -159,6 +159,8 @@ En pratiquant TDD, nous sommes ainsi amenés à réaliser surtout des tests mét
 - [Robert C. Martin (Uncle Bob), The Cycles of TDD, 2014](http://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html)
 - [TDD Manifesto, Values of TDD](https://tddmanifesto.com/)
 
+[Clean Code/The Three Laws of TDD]: "Robert C. Martin, Clean Code, A Handbook of Agile Software Craftsmanship, 2008, p. 122"
+
 [Martin/The Cycles of TDD]: http://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html "Robert C. Martin (Uncle Bob), The Cycles of TDD, 2014"
 
 [TDD Manifesto/Values]: https://tddmanifesto.com/ "TDD Manifesto, Values of TDD"
