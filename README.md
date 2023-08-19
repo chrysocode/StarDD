@@ -153,4 +153,5 @@ En pratiquant TDD, nous sommes ainsi amenés à réaliser surtout des tests mét
 # Références bibliographiques
 
 - [TDD Manifesto, Values of TDD](https://tddmanifesto.com/)
+
 [TDD/pilliers]: https://tddmanifesto.com/ "TDD Manifesto, Values of TDD"
