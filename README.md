@@ -99,6 +99,18 @@ TDDflow peut se greffer à n'importe quel modèle des flux de versionnage, tels 
 
 ATDD est une méthode qui guide les développements par macro-itérations depuis l'heuristique et la capture du besoin jusqu'à aboutir à une solution démontrable, afin de livrer régulièrement un produit toujours plus satisfaisant aux utilisateurs.
 
+## Cycle 4D d'ATDD
+
+Le macro-cycle d'ATDD se déroule en 4 étapes.
+
+![Cycle 4D d'ATDD](ressources/schemas/4d_atdd_cycle__fr.png)
+
+À chaque itération :
+1. Discuter
+2. Distiller
+3. Développer
+4. Démontrer
+
 # Behavior-Driven Development (BDD)
 
 ## Définition de BDD
