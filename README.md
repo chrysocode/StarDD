@@ -4,6 +4,7 @@
 Ce site est en cours de construction : ne soyez pas surpris si un paragraphe semble inachevé ou s'il est resté vide.
 
 # Bienvenue dans le Monde de la Révolution Logicielle !
+{: .no-toc }
 
 Êtes-vous prêt à plonger au cœur de méthodes de développement qui peuvent révolutionner la manière dont les logiciels prennent vie ? Vous avez atterri sur le site ultime dédiée à la découverte, à la compréhension et à la maîtrise dans le domaine du développement logiciel piloté par le test. Que vous soyez un codeur chevronné, un testeur acharné ou simplement un esprit curieux, notre espace est conçu pour éveiller votre passion pour la création de logiciels de grande qualité.🏅🏆
 
