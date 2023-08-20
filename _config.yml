@@ -1,3 +1,5 @@
+title: StarDD
+description: Star-Driven Development pour vous guider vers TDD, ATDD et BDD.
 theme: jekyll-theme-merlot
 kramdown:
   parse_block_html: true
