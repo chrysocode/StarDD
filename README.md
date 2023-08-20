@@ -34,7 +34,7 @@ Bienvenue dans *Star-Driven Development*. Votre aventure commence maintenant !�
 
 Aujourd'hui, la question n'est plus du tout de savoir pourquoi il faudrait s'intéresser à ces méthodes, mais plutôt de comprendre ce qu'elles permettent de faire.
 
-## Un monde complexe et ambigü
+## Un monde complexe et ambigu
 
 En environnement complexe, il n'y a plus une solution pour un problème, mais une multitude de solutions possibles. Et bien souvent, le problème reste à découvrir, à questionner. Redéfinir le problème d'origine dans un cadre différent ouvre de nouvelles perspectives et permet d'envisager des solutions novatrices. Formuler des hypothèses pour explorer des solutions potentielles, c'est se donner des chances de découvrir une meilleure solution, voire de relever un défi qui paraissait insurmontable au départ.
 
