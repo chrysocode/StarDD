@@ -1,4 +1,5 @@
 # ⚠️ Avertissement ⚠️
+{: .no-toc }
 
 Ce site est en cours de construction : ne soyez pas surpris si un paragraphe semble inachevé ou s'il est resté vide.
 
@@ -6,7 +7,7 @@ Ce site est en cours de construction : ne soyez pas surpris si un paragraphe sem
 
 Êtes-vous prêt à plonger au cœur de méthodes de développement qui peuvent révolutionner la manière dont les logiciels prennent vie ? Vous avez atterri sur le site ultime dédiée à la découverte, à la compréhension et à la maîtrise dans le domaine du développement logiciel piloté par le test. Que vous soyez un codeur chevronné, un testeur acharné ou simplement un esprit curieux, notre espace est conçu pour éveiller votre passion pour la création de logiciels de grande qualité.🏅🏆
 
-Imaginez un endroit où le code prend vie avec une précision chirurgicale, où les fonctionnalités et algorithmes évoluent en harmonie avec les besoins des utilisateurs, et où chaque ligne de code est un pas de danse dans le ballet complexe de la conception logicielle. Bienvenue dans l'univers des méthodes itératives et incrémentales, TDD, ATDD et BDD - trois méthodes puissantes qui transforment l'art du codage en une discipline précise, créative et collaborative.
+Imaginez un endroit où le code prend vie avec une précision chirurgicale, où les fonctionnalités et algorithmes évoluent en harmonie avec les besoins des utilisateurs, et où chaque ligne de code est un pas de danse dans le ballet complexe de la conception logicielle. Bienvenue dans l'univers des méthodes itératives et incrémentales, TDD, ATDD et BDD -- trois méthodes puissantes qui transforment l'art du codage en une discipline précise, créative et collaborative.
 
 Que vous soyez en quête de connaissances pour perfectionner votre art, ou que vous désiriez explorer ces méthodes sous un angle nouveau et innovant, vous êtes au bon endroit. Notre site regorge de ressources authentiques et détaillées, des concepts de base aux subtilités avancées, des diagrammes illustratifs aux études de cas réels. Tout cela dans le but de vous guider, vous inspirer et vous aider à élever vos compétences à un niveau supérieur.
 
