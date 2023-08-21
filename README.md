@@ -125,6 +125,7 @@ Le micro-cycle de TDD se divise en deux nano-cycles : un nano-cycle de *Code-Dri
   - *Behavior-Driven Development* (BDD), qui dérive à la fois de TDD et d'ATDD.
 - Méthodes similaires : elles ont leur propre cycle qui les rend à la fois similaires à TDD, mais structurellement différentes.
   - *Acceptance-Test Driven Development* (ATDD)
+  - *Story Test-Driven Development* (STDD)
   - *Test && Commit \|\| Revert* (TCR)
 
 ## TDDflow : versionnage avec TDD
