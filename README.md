@@ -164,6 +164,24 @@ Quand on se forme à un langage de programmation, on écrit généralement des m
 
 Au final, viser TDD même en commençant par des petits tests automatisés sur des petits morceaux de code est à mon avis la meilleure façon d'apprendre un langage de programmation, qu'on soit junior ou sénior d'ailleurs. On peut voir fleurir beaucoup de billets ou d'articles pour dissuader les juniors de s'intéresser à TDD dès le début... Plus tôt vous adopterez cette gymnastique de l'esprit, moins vous devrez désapprendre pour réapprendre, plus vite TDD sera une évidence, la vôtre.
 
+## Pourquoi TDD n'est-il pas une stratégie de test ?
+
+Que cela signifie-t-il de dire que TDD n'est pas une stratégie de test ?
+
+Passons au crible TDD et stratégie de test pour y voir plus clair.
+
+QQOQCCP | TDD | Stratégie de test
+:-----: | --- | -----------------
+Qui ? | TDD a été imaginé par des développeurs pour des développeurs. | Une stratégie de test est généralement conçue par un QA Manager ou un Test Leader, pour être appliquée par des testeurs et des développeurs.
+Quoi ? | TDD est une méthode de développement qui s'appuie sur les tests avant codage afin de décrire un problème de développement à résoudre. | Une stratégie de test est un ensemble de décisions sur la manière de gérer les activités de test.
+Où ? | TDD est pratiqué pendant le codage seulement. | Une stratégie de test est à l'œuvre partout où les tests peuvent être mis à profit dans le processus de création d'un produit, depuis l'idéation (*shift-left testing*) jusqu'à l'exploitation (*shift-right testing*).
+Quand ? | Les prémisses de TDD remonteraient à 1999. La méthode a évolué depuis. | Une stratégie de test est élaborée spécifiquement pour un produit logiciel, après avoir défini une politique de test. Elle est mise à jour au besoin au cours de la vie du produit.
+Comment ? | TDD n'apporte aucune réponse sur les formes de test à employer. Il faut seulement que les tests automatisés avec TDD soient FIRST pour en tirer profit. C'est pourquoi TDD est agnostique de toute forme de test. | Une stratégie de test sélectionne et définit les formes de test à employer pour réduire le nombre et le risque des défaillances en production.
+Combien ? | TDD ne prescrit rien quant au nombre de tests à automatiser. | Une stratégie de test doit répartir l'effort de test, pour les tests manuels comme pour les tests automatisés, entre les différentes formes de test sélectionnées pour un produit.
+Pourquoi ? | Les praticiens de TDD estiment qu'un grand bénéfice parmi d'autres de TDD est de consacrer beaucoup plus de temps à développer un logiciel qu'à le déboguer pas à pas à chaque changement. | Une stratégie de test permet d'aligner une organisation, c'est-à-dire de coordonner les acteurs impliqués, quant aux moyens à mettre en œuvre pour livrer un produit conforme aux attentes, qu'il s'agisse des attentes des utilisateurs, d'attentes réglementaires, d'attentes contractuelles, etc.
+
+**NB :** L'incompréhension de ce qu'est une stratégie de test est à l'origine d'un point de friction permanent dans la communauté des développeurs, qui essaient d'y remédier en tordant la définition de test unitaire plutôt que de réfléchir à une stratégie de test d'ensemble. Dans une stratégie de test, on doit à un moment sélectionner différentes formes de test pertinentes pour atteindre des objectifs de l'entreprise. TDD va seulement pousser à automatiser une toute petite partie de ces formes de test pour faciliter les développements. Les enjeux ne sont pas du tout les mêmes.
+
 ## Que signifie unitaire dans le contexte de TDD ?
 
 En vérité, unitaire signifiait **assertion** quand Robert C. Martin l'a utilisé dans ses premières formulations des trois lois de TDD, entre 2005 et [2008][Clean Code/The Three Laws of TDD]. Toutes les confusions et le capharnaüm qui règne dans la communauté du *Software Craftsmanship* trouvent leur origine ici. Comme Robert C. Martin s'est aperçu de sa bévue, sa [dernière formulation][Martin/The Cycles of TDD] en 2014 voit le terme unitaire enfin supprimé. Car unitaire désigne et doit continuer à désigner une **unité de programmation**, de sorte que cette unité de programmation dépend en fait du paradigme de programmation (une classe en programmation orientée objet, une fonction en programmation fonctionnelle, une procédure en programmation procédurale, etc), et non des tests. Quand vous voudrez parler d'un test dont le sujet n'est pas une unité de programmation, vous devrez vous intéresser à la typologie et taxonomie des tests logiciels, afin de recourir au vocable adéquat.
