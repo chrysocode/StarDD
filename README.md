@@ -168,7 +168,7 @@ Au final, viser TDD même en commençant par des petits tests automatisés sur d
 
 Que cela signifie-t-il de dire que TDD n'est pas une stratégie de test ?
 
-Passons au crible TDD et stratégie de test pour y voir plus clair pour les comparer.
+Passons au crible TDD et stratégie de test pour les comparer et y voir enfin plus clair.
 
 QQOQCCP | TDD | Stratégie de test
 :-----: | --- | -----------------
