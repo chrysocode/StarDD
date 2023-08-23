@@ -195,6 +195,26 @@ M'étant longuement penché sur la typologie des tests, je vous recommande le te
 
 En pratiquant TDD, nous sommes ainsi amenés à réaliser surtout des tests métier, et plus rarement des tests unitaires, selon que nous voulons tester une règle métier complète ou un petit algorithme, le principal étant que les tests soient résilients face au remaniement de code. Bien sûr, cela n'exclut pas de recourir plus souvent à des tests unitaires pour d'autres besoins ou pour d'autres pratiques que TDD. Nous serons alors bien contents de les retrouver, indemnes et fidèles à eux-mêmes.
 
+## Fait-on vraiment des tests d'acceptation en TDD, ATDD ou BDD ?
+
+Par définition dans le domaine du test logiciel, un test d'acceptation utilisateur porte sur la **satisfaction d'un besoin de l'utilisateur final**. Un tel test a pour résultat une **appréciation nuancée et subjective**, formulée au moins oralement, sinon par écrit, à propos de l'adéquation du produit au besoin. Les seules personnes capables de faire des tests d'acceptation utilisateur sont donc les utilisateurs finaux eux-mêmes, qui les réalisent manuellement.
+
+Quand on automatise un test quelconque, l'automate de test ne peut fournir qu'un résultat binaire de succès ou d'échec, qui sanctionne la conformité non pas à un besoin mais à une spécification. Du fait de cette différence profonde entre tests d'acceptation utilisateur et tests automatisés, aucun des tests automatisés avec le concours des méthodes *DD ne saurait être un test d'acceptation utilisateur, jamais, par essence.
+
+Si les tests de BDD sont appelés des tests d'acceptation dans la littérature, c'est par abus de langage : même si les tests de BDD émanent à l'origine de la voix des utilisateurs, ils cessent d'être des tests d'acceptation utilisateur à proprement parler dès lors qu'ils sont gérés par des développeurs ou des testeurs, qu'ils soient automatisés ou exécutés manuellement.
+
+Autant il est possible de s'approprier et de détourner un test d'acceptation utilisateur en tant que développeur ou testeur afin de l'automatiser, autant le test automatisé ainsi obtenu n'est plus un test d'acceptation utilisateur. A fortiori, un test unitaire ne peut pas être un test d'acceptation utilisateur, et un test d'acceptation utilisateur ne peut pas être unitaire.
+
+QQOQCCP | Test *DD | Test d'Acceptation Utilisateur
+------- | --------------- | ------------------------------
+Qui ? Réalisé par... | un développeur ou testeur | un utilisateur final
+Quoi ? Le résultat est... | un succès ou un échec | une appréciation nuancée et subjective
+Où ? Exécuté dans un environnement de... | test | production
+Quand ? Exécuté... | pendant les développements | après livraison
+Comment ? | Automatisé ou manuel | Manuel seulement
+Combien ? | Très nombreux | Peu nombreux
+Pourquoi ? Pour... | vérifier la conformité à une spécification | valider la satisfaction d'un besoin
+
 ![Drive change for Spec + Test + Code with Chrysocode](assets/images/bannière_stardd.png)
 
 # Références bibliographiques
