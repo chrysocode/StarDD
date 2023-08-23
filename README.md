@@ -197,9 +197,9 @@ En pratiquant TDD, nous sommes ainsi amenés à réaliser surtout des tests mét
 
 ## Fait-on vraiment des tests d'acceptation en TDD, ATDD ou BDD ?
 
-Par définition dans le domaine du test logiciel, un test d'acceptation utilisateur porte sur la **satisfaction d'un besoin de l'utilisateur final**. Un tel test a pour résultat une **appréciation nuancée et subjective**, formulée au moins oralement, sinon par écrit, à propos de l'adéquation du produit au besoin. Les seules personnes capables de faire des tests d'acceptation utilisateur sont donc les utilisateurs finaux eux-mêmes, qui les réalisent manuellement.
+Par définition dans le domaine du test logiciel, un test d'acceptation utilisateur porte sur la **satisfaction d'un besoin de l'utilisateur final**. Un tel test a pour résultat une **appréciation nuancée et subjective**, formulée au moins oralement, sinon par écrit, à propos de l'adéquation du produit au besoin. Les seules personnes capables de faire des tests d'acceptation utilisateur sont donc les utilisateurs finaux eux-mêmes.
 
-Quand on automatise un test quelconque, l'automate de test ne peut fournir qu'un résultat binaire de succès ou d'échec, qui sanctionne la conformité non pas à un besoin mais à une spécification. Du fait de cette différence profonde entre tests d'acceptation utilisateur et tests automatisés, aucun des tests automatisés avec le concours des méthodes *DD ne saurait être un test d'acceptation utilisateur, jamais, par essence.
+Quand on automatise un test quelconque, l'automate de test ne peut fournir qu'un résultat binaire de succès ou d'échec, qui sanctionne la conformité non pas à un besoin mais à une spécification. Du fait de cette différence fondamentale entre tests d'acceptation utilisateur et tests automatisés, aucun des tests automatisés avec le concours des méthodes *DD ne saurait être un test d'acceptation utilisateur, jamais, par essence.
 
 Si les tests de BDD sont appelés des tests d'acceptation dans la littérature, c'est par abus de langage : même si les tests de BDD émanent à l'origine de la voix des utilisateurs, ils cessent d'être des tests d'acceptation utilisateur à proprement parler dès lors qu'ils sont gérés par des développeurs ou des testeurs, qu'ils soient automatisés ou exécutés manuellement.
 
