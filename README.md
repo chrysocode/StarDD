@@ -25,7 +25,7 @@ Bienvenue dans *Star-Driven Development*. Votre aventure commence maintenant !�
 
 ![Définitions de TDD, BDD et ATDD](ressources/schemas/tdd_atdd_bdd__definitions__fr.png)
 
-![Drive change for Spec + Test + Code with Chrysocode](ressources/schemas/bannière_stardd.png)
+![Drive change for Spec + Test + Code with Chrysocode](assets/images/bannière_stardd.png)
 
 - Table des matières
 {:toc}
@@ -195,6 +195,8 @@ M'étant longuement penché sur la typologie des tests, je vous recommande le te
 
 En pratiquant TDD, nous sommes ainsi amenés à réaliser surtout des tests métier, et plus rarement des tests unitaires, selon que nous voulons tester une règle métier complète ou un petit algorithme, le principal étant que les tests soient résilients face au remaniement de code. Bien sûr, cela n'exclut pas de recourir plus souvent à des tests unitaires pour d'autres besoins ou pour d'autres pratiques que TDD. Nous serons alors bien contents de les retrouver, indemnes et fidèles à eux-mêmes.
 
+![Drive change for Spec + Test + Code with Chrysocode](assets/images/bannière_stardd.png)
+
 # Références bibliographiques
 
 - Robert C. Martin, Clean Code, A Handbook of Agile Software Craftsmanship, 2008, p. 122
@@ -206,7 +208,3 @@ En pratiquant TDD, nous sommes ainsi amenés à réaliser surtout des tests mét
 [Martin/The Cycles of TDD]: http://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html "Robert C. Martin (Uncle Bob), The Cycles of TDD, 2014"
 
 [TDD Manifesto/Values]: https://tddmanifesto.com/ "TDD Manifesto, Values of TDD"
-
----
-
-![Drive change for Spec + Test + Code with Chrysocode](ressources/schemas/bannière_stardd.png)
