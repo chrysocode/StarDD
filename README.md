@@ -115,7 +115,7 @@ Le micro-cycle de TDD se divise en deux nano-cycles : un nano-cycle de *Code-Dri
 - Pratiques strictement incluses : TDD implique de les utiliser.
   - *Code-Driven Testing*
   - Remaniement de code
-- Pratiques additionnelles : elles ne modifient pas TDD, elles y ajoutent seulement quelques éléments.
+- Pratiques additionnelles : elles ne modifient pas TDD, elles y greffent seulement quelques éléments.
   - *Continuous TDD*
   - *TDD As If You Meant It*
   - *Transformation Priority Premise*
