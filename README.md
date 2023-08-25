@@ -61,7 +61,7 @@ Face à la complexité, la simplicité est notre salut. Face à l'ambiguïté, s
 
 ## Définition de TDD
 
-TDD est une méthode qui guide les développements par micro-itérations depuis l'analyse et le découpage du problème jusqu'à aboutir à une solution minimale, simple et prouvée, afin de livrer continuellement un produit toujours plus fiable aux utilisateurs.
+TDD est une méthode incrémentale qui guide les développements par micro-cycles depuis l'analyse et le découpage du problème jusqu'à aboutir à une solution minimaliste, simple et prouvée, en faisant émerger la conception par empirisme, afin de livrer continuellement un produit toujours plus fiable aux utilisateurs.
 
 ## Rouge-Vert-Remaniement
 
@@ -136,7 +136,7 @@ TDDflow peut se greffer à n'importe quel modèle des flux de versionnage, tels 
 
 ## Définition d'ATDD
 
-ATDD est une méthode qui guide les développements par macro-itérations depuis l'heuristique et la capture du besoin jusqu'à aboutir à une solution démontrable, afin de livrer régulièrement un produit toujours plus satisfaisant aux utilisateurs.
+ATDD est une méthode incrémentale qui guide les développements par itérations depuis l'heuristique et la capture du besoin jusqu'à aboutir à une solution testée littéralement, voire visuellement, et démontrable, en renforçant la communication et la collaboration, afin de livrer régulièrement un produit toujours plus satisfaisant aux utilisateurs.
 
 ## Cycle 4D d'ATDD
 
@@ -154,7 +154,7 @@ Le macro-cycle d'ATDD se déroule en 4 étapes.
 
 ## Définition de BDD
 
-BDD est une méthode qui guide les développements par macro-itérations depuis l'heuristique et la capture du besoin jusqu'à aboutir à une solution auto-spécifiée et démontrable, afin de livrer continuellement un produit toujours plus satisfaisant aux utilisateurs.
+BDD est une méthode incrémentale qui guide les développements par macro-cycles depuis l'heuristique et la capture du besoin jusqu'à aboutir à une solution auto-spécifiée, auto-documentée et démontrable, en renforçant la communication et la collaboration, afin de livrer continuellement un produit toujours plus satisfaisant aux utilisateurs.
 
 # Foire Aux Questions
 
