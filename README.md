@@ -59,6 +59,8 @@ Face à la complexité, la simplicité est notre salut. Face à l'ambiguïté, s
 
 # Test-Driven Development (TDD)
 
+![Drive change for Spec + Test + Code with Chrysocode](assets/images/bannière_stardd.png)
+
 ## Définition de TDD
 
 TDD est une méthode incrémentale qui guide les développements par micro-cycles depuis l'analyse et le découpage du problème jusqu'à aboutir à une solution minimaliste, simple et prouvée, en faisant émerger la conception par empirisme, afin de livrer continuellement un produit toujours plus fiable aux utilisateurs.
@@ -134,6 +136,8 @@ TDDflow peut se greffer à n'importe quel modèle des flux de versionnage, tels 
 
 # Acceptance-Test Driven Development (ATDD)
 
+![Drive change for Spec + Test + Code with Chrysocode](assets/images/bannière_stardd.png)
+
 ## Définition d'ATDD
 
 ATDD est une méthode incrémentale qui guide les développements par itérations depuis l'heuristique et la capture du besoin jusqu'à aboutir à une solution testée littéralement, voire visuellement, et démontrable, en renforçant la communication et la collaboration, afin de livrer régulièrement un produit toujours plus satisfaisant aux utilisateurs.
@@ -152,6 +156,8 @@ Le macro-cycle d'ATDD se déroule en 4 étapes.
 
 # Behavior-Driven Development (BDD)
 
+![Drive change for Spec + Test + Code with Chrysocode](assets/images/bannière_stardd.png)
+
 ## Définition de BDD
 
 BDD est une méthode incrémentale qui guide les développements par macro-cycles depuis l'heuristique et la capture du besoin jusqu'à aboutir à une solution auto-spécifiée, auto-documentée et démontrable, en renforçant la communication et la collaboration, afin de livrer continuellement un produit toujours plus satisfaisant aux utilisateurs.
@@ -163,6 +169,8 @@ BDD est une méthode incrémentale qui guide les développements par macro-cycle
 Quand on se forme à un langage de programmation, on écrit généralement des morceaux de code pour réaliser de toutes petites tâches, comme autant d'exercices. On a donc le choix de vérifier le résultat soit en l'affichant en console (test manuel), soit en le testant en utilisant un framework de test (test automatisé). La deuxième option est bien meilleure, car on développe deux compétences conjointement au lieu d'une, car on apprend plus vite en maîtrisant ce qu'on fait, car automatiser ses tests n'est plus un sujet tabou. Ensuite, analyser un problème en sous-problèmes et commencer à définir un sous-problème en le décrivant sous la forme d'un test automatisé, tout cela avant de foncer tête baissée dans la recherche d'une solution, c'est déjà pratiquer TDD.
 
 Au final, viser TDD même en commençant par des petits tests automatisés sur des petits morceaux de code est à mon avis la meilleure façon d'apprendre un langage de programmation, qu'on soit junior ou sénior d'ailleurs. On peut voir fleurir beaucoup de billets ou d'articles pour dissuader les juniors de s'intéresser à TDD dès le début... Plus tôt vous adopterez cette gymnastique de l'esprit, moins vous devrez désapprendre pour réapprendre, plus vite TDD sera une évidence, la vôtre.
+
+![Drive change for Spec + Test + Code with Chrysocode](assets/images/bannière_stardd.png)
 
 ## Pourquoi TDD n'est-il pas une stratégie de test ?
 
@@ -182,6 +190,8 @@ Pourquoi ? | Les praticiens de TDD estiment qu'un grand bénéfice parmi d'autre
 
 **NB :** L'incompréhension de ce qu'est une stratégie de test est à l'origine d'un point de friction permanent dans la communauté des développeurs, qui essaient d'y remédier en tordant la définition de test unitaire plutôt que de réfléchir à une stratégie de test d'ensemble. Dans une stratégie de test, on doit à un moment sélectionner différentes formes de test pertinentes pour atteindre des objectifs de l'entreprise. TDD va seulement pousser à automatiser une toute petite partie de ces formes de test pour faciliter les développements. Les enjeux ne sont pas du tout les mêmes.
 
+![Drive change for Spec + Test + Code with Chrysocode](assets/images/bannière_stardd.png)
+
 ## Que signifie unitaire dans le contexte de TDD ?
 
 En vérité, unitaire signifiait **assertion** quand Robert C. Martin l'a utilisé dans ses premières formulations des trois lois de TDD, entre 2005 et [2008][Clean Code/The Three Laws of TDD]. Toutes les confusions et le capharnaüm qui règne dans la communauté du *Software Craftsmanship* trouvent leur origine ici. Comme Robert C. Martin s'est aperçu de sa bévue, sa [dernière formulation][Martin/The Cycles of TDD] en 2014 voit le terme unitaire enfin supprimé. Car unitaire désigne et doit continuer à désigner une **unité de programmation**, de sorte que cette unité de programmation dépend en fait du paradigme de programmation (une classe en programmation orientée objet, une fonction en programmation fonctionnelle, une procédure en programmation procédurale, etc), et non des tests. Quand vous voudrez parler d'un test dont le sujet n'est pas une unité de programmation, vous devrez vous intéresser à la typologie et taxonomie des tests logiciels, afin de recourir au vocable adéquat.
@@ -194,6 +204,8 @@ Car rien de tel pour semer le chaos et la discorde que d'employer un même mot p
 M'étant longuement penché sur la typologie des tests, je vous recommande le terme de **test métier** pour désigner un test fonctionnel qui traverse un groupe de classes comme sujet de test et dont l'objectif est de vérifier une règle métier, d'où son nom. Test unitaire et test métier forment le groupe des tests comportementaux, car ils servent tout deux à vérifier des comportements d'un logiciel.
 
 En pratiquant TDD, nous sommes ainsi amenés à réaliser surtout des tests métier, et plus rarement des tests unitaires, selon que nous voulons tester une règle métier complète ou un petit algorithme, le principal étant que les tests soient résilients face au remaniement de code. Bien sûr, cela n'exclut pas de recourir plus souvent à des tests unitaires pour d'autres besoins ou pour d'autres pratiques que TDD. Nous serons alors bien contents de les retrouver, indemnes et fidèles à eux-mêmes.
+
+![Drive change for Spec + Test + Code with Chrysocode](assets/images/bannière_stardd.png)
 
 ## Fait-on vraiment des tests d'acceptation en TDD, ATDD ou BDD ?
 
@@ -235,6 +247,8 @@ Quelles leçons pouvons-nous en tirer ?
 3. En automatisant les tests de concert avec le développement, un développeur se donne les moyens de détecter un défaut au moment même où il a été introduit. Ainsi, le développeur corrige ce défaut quand il coûte le moins cher à corriger. Il économise même le coût du changement de contexte en restant concentré sur son objectif présent.
 
 En résumé, une telle approche de développement consisterait à coder après avoir automatisé un test pour tirer la conception d'un logiciel vers plus de simplicité, à localiser la source précise des défauts en s'appuyant sur des tests les moins coûteux à automatiser et les plus rapides à exécuter, à corriger les défauts le plus tôt possible en exécutant les tests en continu. Non seulement cette approche est plus efficace, mais ce faisant, nous n'aurions plus besoin de déboguer le code ligne après ligne, variable après variable, embranchement après embranchement. Je vous laisse deviner : cette méthode existe déjà, c'est TDD.
+
+![Drive change for Spec + Test + Code with Chrysocode](assets/images/bannière_stardd.png)
 
 # Références bibliographiques
 
