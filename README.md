@@ -217,6 +217,25 @@ Pourquoi ? Pour... | vérifier la conformité à une spécification | valider la
 
 ![Drive change for Spec + Test + Code with Chrysocode](assets/images/bannière_stardd.png)
 
+## TDD permet-il vraiment d'en finir avec le débogage ?
+
+Le débogage relève du test dynamique et manuel après codage, où un développeur vérifie l'état interne du logiciel en contrôlant les valeurs des variables, ainsi que le chemin d'exécution. Comme il peut y avoir une distance importante en nombre de lignes de code entre le début de l'exécution et les composants à déboguer, un développeur utilise des points d'arrêt, puis procède en pas à pas. En général, on fait appel au débogage, non pas pour vérifier qu'un logiciel fonctionne, mais pour trouver la cause racine d'un défaut déjà identifé, et le placement des points d'arrêt se précise progressivement. Cela signifie au moins trois choses importantes.
+1. Lors d'un test par débogage, il y a des composants sur lesquels se focaliser, et d'autres au contraire à ignorer.
+2. Le débogage est assimilable à un test en boîte blanche, voire à une suite de tests en boîte blanche, pratiqués après qu'un autre test plus grosse maille, probablement en boîte noire, fut en échec.
+3. Le débogage est utilisé après qu'un certain laps de temps s'est écoulé depuis l'introduction d'un défaut.
+
+Les trois points précédents entraînent respectivement trois conséquences.
+1. Plus le code est complexe dans les composants ciblés et plus les composants ciblés sont nombreux, plus la charge mentale du développeur est élevée, plus sa tâche est difficile.
+2. Le débogage fait partie d'une activité de test qui s'inscrit déjà à plusieurs niveaux de test. Par exemple, on teste fonctionnellement une interface utilisateur ou une API, avant d'en arriver à déboguer des composants de type classe ou fonction, depuis les couches supérieures vers les couches inférieures de l'architecture. Dans cette approche du test, les tests les plus représentés dans le processus de développement sont donc des tests de haut niveau (en s'éloignant du code), et les tests les moins représentés ceux de bas niveau (au plus près du code) : cette approche du test favorise les tests les plus coûteux à réaliser, qui sont aussi ceux qui ne permettent pas de localiser la source précise d'un défaut.
+3. Le coût d'une correction par débogage n'est jamais anodin, et il augmente rapidement en fonction du délai entre l'introduction d'un défaut et sa correction. Ce coût de correction pèse de façon significative sur la capacité à développer des fonctionnalités à valeur ajoutée.
+
+Quelles leçons pouvons-nous en tirer ?
+1. La correction d'un défaut sera d'autant plus aisée que la charge mentale du développeur est réduite, autrement dit que le code est simple à l'intérieur des composants et que les responsabilités des composants sont bien découpées. Or on peut dire exactement la même chose au sujet d'un test automatisé : l'automatisation d'un test sera d'autant plus aisée que le code est simple à l'intérieur des composants et que les responsabilités des composants sont bien découpées. Si le test est automatisé avant codage, il faudra réaliser un développement en fonction du test, en appliquant les principes de simplicité, de cohésion et de découplage. Pourquoi ne pas faire d'une pierre deux coups, en automatisant les tests avant codage pour améliorer la conception logicielle et en utilisant ces mêmes tests pour localiser la source d'un défaut ?
+2. Plus un test est de bas niveau, plus il contribue à localiser aisément la source précise d'un défaut, et ce à moindre coût. Cela ne veut pas dire que les tests de plus haut niveau sont inutiles : ils sont simplement complémentaires en testant un logiciel de façon différente, pour détecter d'autres types de défauts. Ainsi pourquoi ne pas développer un logiciel en favorisant les tests de bas niveau et où les tests de haut niveau en moindre nombre viennent compléter les premiers ? On optimise ainsi le bénéfice des tests automatisés par rapport à leur coût.
+3. En automatisant les tests de concert avec le développement, un développeur se donne les moyens de détecter un défaut au moment même où il a été introduit. Ainsi, le développeur corrige ce défaut quand il coûte le moins cher à corriger. Il économise même le coût du changement de contexte en restant concentré sur son objectif présent.
+
+En résumé, une telle approche de développement consisterait à coder après avoir automatisé un test pour tirer la conception d'un logiciel vers plus de simplicité, à localiser la source précise des défauts en s'appuyant sur des tests les moins coûteux à automatiser et les plus rapides à exécuter, à corriger les défauts le plus tôt possible en exécutant les tests en continu. Non seulement cette approche est plus efficace, mais ce faisant, nous n'aurions plus besoin de déboguer le code ligne après ligne, variable après variable, embranchement après embranchement. Je vous laisse deviner : cette méthode existe déjà, c'est TDD.
+
 # Références bibliographiques
 
 - Robert C. Martin, Clean Code, A Handbook of Agile Software Craftsmanship, 2008, p. 122
